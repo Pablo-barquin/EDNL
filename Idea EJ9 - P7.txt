@@ -1,0 +1,23 @@
+Cadiz - Sevilla Tren 10
+Cadiz - Sevilla Bus  5
+
+Taxi = 20
+		CadizTren CadizBus SevillaTren SevillaBus
+CadizTren	    0        20        10          INF
+CadizBus	   20        0         INF         5
+SevillaTren        10        INF       0           20
+SevillaBus         INF       5         20          0
+
+
+
+Nodos = 2;
+Matriz = 4;
+i=0 | j=3
+		    0         1         2          3
+		CadizTren SevillaTren CadizBus SevillaBus
+0 CadizTren	    0        10        20          INF
+1 SevillaTren	   10        0         INF         20
+2 CadizBus         20        INF       0           5
+3 SevillaBus       INF       20        5           0
+
+
